@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+    outline: none;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    font-size: 1.6rem;
+    background-color:#FAFAFA ;
+}
+
+.header {
+    width: 100%;
+    padding: 0 10rem;
+    background-color: #133B5C;
+    box-shadow: 0.1rem 0.1rem 1rem #000;
+    z-index: 1000;
+    position: fixed;
+}
+
+.header .nav-header .voltar a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.header .nav-header .voltar #voltar {
+    font-size: 2rem;
+}
+
+.header .nav-header .voltar a:hover {
+    color: #F39422;
+}
+
+.header .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav-header .rede-sociais {
+    display: flex;
+}
+
+.header .nav-header .rede-sociais .logo {
+    font-size: 4rem;
+    font-weight: 800;
+    color:#F39422;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.header .nav-header .rede-sociais .logo span {
+    color: #fff;
+}
+
+.header .nav-header .rede-sociais .logo #talheres {
+    color: #fff;
+    font-size: 3.5rem;
+    margin-left: 10px;
+}
+
+.header .nav-header .rede-sociais .nav-icons{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.header .nav-header .rede-sociais .nav-icons a {
+    color: #fff;
+}
+
+.header .nav-header .rede-sociais .nav-icons a:hover {
+    color: #F39422;
+}
+
+.header .nav-header .rede-sociais .nav-icons a:not(:last-child) {
+    margin-right: 1rem;
+    
+}
+
+.cadastro {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #133B5C;
+    padding: 9rem 2rem 2rem 2rem;
+    background: url(../imgs/bgmain.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-cadastro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro .box-cadastro .form-cadastro {
+    padding: 2rem 2rem 1rem 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 40rem;
+}
+
+.cadastro .box-cadastro .form-cadastro h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: #133B5C;
+}
+
+.cadastro .box-cadastro .form-cadastro .input-box {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.cadastro .box-cadastro .form-cadastro .input-box input {
+    width: 100%;
+    padding: 1.3rem 1.5rem;
+    border: .1rem solid #000;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+}
+
+.cadastro .box-cadastro .form-cadastro .input-box input::placeholder {
+    color: rgb(78, 78, 78);
+}
+
+.cadastro .box-cadastro .form-cadastro .input-box input:focus {
+    border: .1rem solid #F39422;
+}
+
+.cadastro .box-cadastro .form-cadastro .btn-cadastrar {
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #133B5C;
+    margin: 2rem 0;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.cadastro .box-cadastro .form-cadastro .btn-cadastrar:hover {
+    background-color: #0C2438;
+}
+
+.cadastro .box-cadastro .form-cadastro .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro .box-cadastro .form-cadastro .info a {
+    color: rgb(80, 80, 80);
+}
+
+.cadastro .box-cadastro .form-cadastro .info a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

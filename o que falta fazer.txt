@@ -1,0 +1,18 @@
+fazer >> 
+	sessao para bebidas
+	transição de surgimento
+	filtrar lanches
+	janela modal para montar lanches
+	janela modal combos de lanches
+	responsividade
+	validar inputs (max. caracter, email
+	conectar ao banco de dados
+	campo de pesquisa funcionando
+	adicionar ao carrinho funcionando
+	contato funcionando
+	configuração de conta
+	hospedar o site
+	sessao de pagamento
+
+
+omjq@4tEv7stdn*Wpu1p
